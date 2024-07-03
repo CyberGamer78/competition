@@ -107,12 +107,8 @@ span {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
 }
-
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   transition: 0.5s;
@@ -253,21 +249,6 @@ section {
   cursor: pointer;
   transform: translateY(-5px);
   transition: transform 0.5s;
-}
-/*animation*/
-.autoShow {
-  animation: autoShowAnimation both;
-  animation-timeline: view(70% 5%);
-}
-@keyframes autoShowAnimation {
-  from {
-    opacity: 0;
-    transform: translateY(200px) scale(0.3);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
 }
 
 ul1 li {

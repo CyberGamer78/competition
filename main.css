@@ -39,8 +39,10 @@ header {
   background: transparent;
   padding: 20px 10%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  height: fit-content;
   transition: all 0.5s ease;
 }
 .logo {
@@ -769,4 +771,25 @@ input:checked + label .descriptioni {
   margin-right: 30px;
   margin-left: 30px;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 480px){
+
+  :root{
+    --h1-font: 3rem;
+    --p-font: 0.7rem;
+
+  }
+  ul.navbar{
+    flex-wrap: wrap;
+    justify-content: center;
+    /* min-width: 40%; */
+  }
+  .home{
+    height: fit-content;
+    padding-top: 50%;
+   
+  }
+  
+  
 }

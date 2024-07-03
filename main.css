@@ -480,8 +480,8 @@ ul1 li:hover ul.dropdown {
 .containeri {
   height: 400px;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: start;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cardi {
@@ -619,6 +619,7 @@ input:checked + label .descriptioni {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 10px;
   height: 100%;
   padding: 15px;

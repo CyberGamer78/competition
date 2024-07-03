@@ -786,7 +786,7 @@ input:checked + label .descriptioni {
     /* min-width: 40%; */
   }
   .home{
-    height: 50vh;
+    height: fit-content;
     padding-top: 50%;
    
   }

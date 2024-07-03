@@ -785,11 +785,11 @@ input:checked + label .descriptioni {
     justify-content: center;
     /* min-width: 40%; */
   }
-  .home{
+  /*.home{
     height: fit-content;
     padding-top: 50%;
    
-  }
+  }*/
   .containeri{
     max-width: 100vw;
   }

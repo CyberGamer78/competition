@@ -149,7 +149,7 @@ section {
 
 .home {
   position: relative;
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(
       to left,
@@ -797,5 +797,21 @@ input:checked + label .descriptioni {
   .cardi{
     max-width: 80vw;
   }
+  .home {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("https://i.postimg.cc/ZnN3h60D/https-freepicdownloader-2-3.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
   
 }

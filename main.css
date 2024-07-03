@@ -807,7 +807,7 @@ input:checked + label .descriptioni {
       rgba(0, 0, 0, 0.3)
     ),
     url("https://i.postimg.cc/ZnN3h60D/https-freepicdownloader-2-3.jpg");
-  background-size: contain;
+  background-size: cover;
   background-position: bottom center;
   display: flex;
   align-items: center;

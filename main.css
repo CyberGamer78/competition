@@ -809,6 +809,12 @@ input:checked + label .descriptioni {
     padding-top: 50%;
    
   }
-  
+  .containeri{
+    max-width: 100vw;
+  }
+
+  .cardi{
+    max-width: 80vw;
+  }
   
 }
